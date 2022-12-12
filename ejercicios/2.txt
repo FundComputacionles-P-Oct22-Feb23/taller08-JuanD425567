@@ -1,0 +1,17 @@
+1. Inicio
+2. (notas(3),i[0-n])
+3. (cualitativo(3), x(20)[{a-z}, {A-Z}, {BS}]) <-- "Buena"
+4. mensaje x(999) [{a-z}, {A-Z}, {BS}]
+5. indice, i[0-n]
+6. notas[0] <-- 8
+7. notas[1] <-- 5
+8. notas[2] <-- 2
+9. Para(indice <-- 0, indice<3, 1) haga
+10.     Si notas[indice] < 5 entonces
+11.        cualitativo[indice]<--"Mala"
+12.    Fin Si
+13. Fin_Para
+14. mensaje<--notas[0]+"--"+cualitativo[0]+"\n"+notas[1]+"--"+cualitativo[1]
+	+"\n"+ notas[2]+"--"+cualitativo[2]
+15. <<mensaje
+16. Fin

@@ -1,0 +1,16 @@
+1. Inicio
+2. (notasEstudiante(6),i[0-n])
+3. indice, i[0-n] <-- 0
+4. suma i[0-n] <-- 0
+5. notasEstudiante[0] <-- 9
+6. notasEstudiante[1] <-- 10
+7. notasEstudiante[2] <-- 7
+8. notasEstudiante[3] <-- 8
+9. notasEstudiante[4] <-- 9
+10.notasEstudiante[5] <-- 10
+11.Mientras (indice < 6) entonces
+12.    suma <-- suma + notasEstudiante[indice]
+13.    indice <-- indice+1
+13.Fin_Mientras
+14.<< suma
+15.Fin

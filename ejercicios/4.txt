@@ -1,0 +1,23 @@
+1.Inicio
+2.(ventas(5),i[0-n])  
+3. (dias(5), x(20)[{a-z}, {BS}])
+4. dias[0]<-- "Lunes"
+5. dias[1]<-- "Martes"
+6. dias[2]<-- "Miércoles"
+7. dias[3]<-- "Jueves"
+8. dias[4]<-- "Viernes"
+9. contador, i[0-n] <-- 0
+10. <<"Ingrese lo vendido el Lunes"
+11. >> ventas[0]
+12. <<"Ingrese lo vendido el Martes"
+13. >> ventas[1]
+14. <<"Ingrese lo vendido el Miercoles"
+15. >> ventas[2]
+16. <<"Ingrese lo vendido el Jueves"
+17. >> ventas[3]
+18. <<"Ingrese lo vendido el Viernes"
+19. >> ventas[4]
+20. Para(contador<--0, indice>5, 1) entonces
+21.	<<dias[contador]+" "+ventas[contador]
+22. Fin_Para
+23.Fin
